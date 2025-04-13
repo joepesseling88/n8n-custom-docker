@@ -11,4 +11,4 @@ USER node
 ENV N8N_USER_FOLDER=/home/node/.n8n
 RUN mkdir -p /home/node/.n8n && chown -R node:node /home/node/.n8n
 
-CMD ["n8n"]
+CMD ["npx", "n8n"]
