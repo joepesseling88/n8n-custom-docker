@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:20
 
 # Install specific version of n8n + community node
 RUN npm install -g n8n@1.88.0 n8n-nodes-mcp
