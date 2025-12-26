@@ -1,7 +1,7 @@
 FROM node:20
 
 # Install specific version of n8n + community node
-RUN npm install -g n8n@1.88.0 n8n-nodes-mcp
+RUN npm install -g n8n@2.0.3 n8n-nodes-mcp
 
 # Set up working directory and user
 ENV N8N_USER_FOLDER=/home/node
